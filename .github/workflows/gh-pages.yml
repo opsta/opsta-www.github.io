@@ -21,7 +21,7 @@ jobs:
           # extended: true
 
       - name: Build
-        run: cd opstaSite && hugo --minify --themesDir ../..
+        run: cd opstaSite && hugo -gc --minify --themesDir ../..
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

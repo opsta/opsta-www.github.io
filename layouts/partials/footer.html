@@ -24,7 +24,7 @@
           <div class="row">
             <!-- service list -->
             <div class="col-6 mb-5">
-              <h4 class="text-white mb-4">{{ i18n "services" }}</h4>
+              <!-- <h4 class="text-white mb-4">{{ i18n "services" }}</h4> -->
               <ul class="list-styled">
                 {{ range (where .Site.RegularPages "Type" "service")}}
                 <li class="mb-3 text-light"><a class="text-light d-block" href="{{ .Permalink }}">{{ .Title }}</a>

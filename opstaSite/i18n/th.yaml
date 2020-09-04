@@ -1,0 +1,65 @@
+- id: read_more
+  translation: อ่านต่อ
+  
+- id: address
+  translation: ที่อยู่
+
+- id: phone
+  translation: เบอร์โทรศัพท์
+
+- id: email
+  translation: อีเมล
+
+- id: contact_form
+  translation: ติดต่อเรา
+
+- id: send
+  translation: ส่งข้อความ
+
+- id: follow
+  translation: ติดตามเราได้ที่
+
+- id: services
+  translation: บริการของเรา
+
+- id: contact_info
+  translation: รายละเอียดการติดต่อ
+
+- id: subscribe_newsletter
+  translation: ติดตามข่าวสารจากเรา
+
+- id: subscribe
+  translation: รับข่าวสาร
+
+- id: connect_with_us
+  translation: ติดตามเราได้ที่
+
+- id: call_now
+  translation: โทรหาเราได้ที่
+
+- id: search_placeholder
+  translation: ข้อความที่ต้องการค้นหา
+
+- id: quick_contact
+  translation: ติดต่อเรา
+
+- id: latest_article
+  translation: บทความล่าสุด
+
+- id: category
+  translation: หมวด
+
+- id: tags
+  translation: Tags
+
+- id: all
+  translation: ALL
+
+- id: client
+  translation: client
+
+- id: date
+  translation: วันที่
+
+- id: status
+  translation: สถานะ
