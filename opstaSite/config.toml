@@ -1,0 +1,226 @@
+########################### Default configuration ######################
+baseURL = "https://www.opsta.co.th/"
+title = "Opsta | DevSecOps as a Service"
+theme = "opsta-hugo"
+# post pagination
+paginate = "6"
+# post excerpt
+summaryLength = "10"
+# disqus short name
+disqusShortname = "opsta" # get your shortname form here : https://disqus.com
+# disable language
+disableLanguages = [] # desable language from here
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+  
+############################### Plugins #################################
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/fontawesome/font-awesome.min.css"
+[[params.plugins.css]]
+link = "plugins/animate/animate.css"
+[[params.plugins.css]]
+link = "plugins/venobox/venobox.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+[[params.plugins.js]]
+link = "plugins/venobox/venobox.min.js"
+[[params.plugins.js]]
+link = "plugins/filterizr/jquery.filterizr.min.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+
+########################### navigation ################################
+# main menu
+[[menu.main]]
+name = "Solutions & Services"
+URL = "solution"
+weight = 2
+hasChildren = true
+
+  [[menu.main]]
+  parent = "Solutions & Services"
+  name = "DevSecOps Platform"
+  URL = "devsecops-platform"
+  weight = 2
+
+  [[menu.main]]
+  parent = "Solutions & Services"
+  name = "Centralized Monitoring"
+  URL = "centralized-monitoring"
+  weight = 3
+
+  [[menu.main]]
+  parent = "Solutions & Services"
+  name = "Cloud Migration"
+  URL = "cloud-migration"
+  weight = 4
+
+  [[menu.main]]
+  parent = "Solutions & Services"
+  name = "Automation Infrastructure"
+  URL = "automation-infrastructure"
+  weight = 5
+
+  [[menu.main]]
+  parent = "Solutions & Services"
+  name = "Automation Security"
+  URL = "automation-security"
+  weight = 6
+
+  [[menu.main]]
+  parent = "Solutions & Services"
+  name = "Performance Load Testing"
+  URL = "performance-load-testing"
+  weight = 7
+
+  [[menu.main]]
+  parent = "Solutions & Services"
+  name = "Data Pipeline"
+  URL = "data-pipeline"
+  weight = 8
+
+  [[menu.main]]
+  parent = "Solutions & Services"
+  name = "Site Reliability Engineering (SRE)"
+  URL = "sre"
+  weight = 9
+
+[[menu.main]]
+name = "About"
+URL = "about"
+weight = 3
+
+[[menu.main]]
+name = "Contact"
+URL = "contact"
+weight = 4
+
+# [[menu.main]]
+# name = "Blog"
+# URL = "blog"
+# weight = 4
+
+# footer menu
+[[menu.footer]]
+name = "Solutions & Services"
+URL = "solution"
+weight = 2
+hasChildren = true
+
+[[menu.footer]]
+name = "About"
+URL = "about"
+weight = 3
+
+[[menu.footer]]
+name = "Contact"
+URL = "contact"
+weight = 4
+
+########################### Default parameters ######################
+[params]
+logo = "images/opsta-logo.png"
+logo_footer = "images/opsta-logo-white.png"
+# top header
+top_header = true
+# Meta data
+description = "Opsta (Thailand) Co.,Ltd. We provide DevSecOps as a Service."
+author = "Opsta"
+# contact info
+address = "677/12 Ladprao Road, Chom Phon, Chatuchak, Bangkok 10900"
+mobile = "+66611234089"
+email = "contact@opsta.co.th"
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+# Google Analitycs
+google_analitycs_id = "UA-130152-29" # your id
+# page sidebar quick contact form
+quick_contact = true
+# search
+search = true
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use jpg, png, svg or gif format.
+
+# # Navigation button
+# [params.navigation_button]
+# enable = true
+# label = "get a quote"
+# link = "contact"
+
+# Subscription
+[params.subscription]
+enable = true
+# mailchimp subsciption
+mailchimp_form_action = "https://opsta.us15.list-manage.com/subscribe/post?u=1d18418b2208ab98c441ec4a4&amp;id=fe31049965" # replace this url with yours
+mailchimp_form_name = "opsta_subscription" # replace this code with yours
+
+# google map
+[params.map]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
+map_latitude = "13.811391"
+map_longitude = "100.5648866"
+map_marker = "images/marker.png"
+
+########################### social icon ############################
+[[params.social]]
+icon = "fa-facebook"
+URL = "https://facebook.com/opstacloud"
+
+[[params.social]]
+icon = "fa-twitter"
+URL = "https://twitter.com/opstacloud"
+
+[[params.social]]
+icon = "fa-github"
+URL = "https://github.com/opsta"
+
+# [[params.social]]
+# icon = "fa-instagram"
+# URL = "https://instagram.com/themefisher"
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+home = "Home"
+# footer content
+footer_content = "Opsta | DevSecOps as a Service"
+# copyright
+copyright = "Copyright &copy; 2020 Opsta (Thailand) Co.,Ltd."
+
+
+################################### Thai language #####################################
+# [Languages.th]
+# languageName = "Th"
+# languageCode = "th-th"
+# contentDir = "content/thai"
+# weight = 2
+# home = "หน้าหลัก"
+# # footer content
+# footer_content = "Opsta | DevSecOps as a Service"
+# # copyright
+# copyright = "Copyright &copy; 2020 Opsta (Thailand) Co.,Ltd."
