@@ -1,7 +1,7 @@
 ########################### Default configuration ######################
 baseURL = "https://www.opsta.co.th/"
 title = "Opsta | DevSecOps as a Service"
-theme = "opsta-hugo"
+theme = "opsta-www.github.io"
 # post pagination
 paginate = "6"
 # post excerpt
