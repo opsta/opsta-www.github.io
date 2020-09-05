@@ -149,7 +149,7 @@ address = "677/12 Ladprao Road, Chom Phon, Chatuchak, Bangkok 10900"
 mobile = "+66611234089"
 email = "contact@opsta.co.th"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "https://formspree.io/mbjzndjn" # contact form works with https://formspree.io
 # Google Analitycs
 google_analitycs_id = "UA-130152-29" # your id
 # page sidebar quick contact form
