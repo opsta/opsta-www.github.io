@@ -7,7 +7,7 @@
       {{ "<!-- about us image -->" | safeHTML }}
       <img class="img-fluid w-100" src="{{ .image_webp | absURL }}" onerror="this.src='{{.image | absURL }}'" alt="About Image">
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 content">
       <div class="section-title-border"></div>
       <h6 class="section-title-sm">{{ .subtitle | markdownify }}</h6>
       <h2 class="section-title">{{ .title | markdownify }}</h2>

@@ -3,25 +3,28 @@ philosophy:
   enable : true
   philosophy_item:
     # philosophy item loop
-    - title : "Our Mission"
-      content : "Lorem ipsum dolor sit amet consectetur adip isicing elit sed do eiusmod tempor incididunt ut labore."
+    - title : "Our Vision"
+      content : "We build scale"
       bullet_point:
-        - "Quality Services"
-        - "Clients Satisfaction"
-        
+        - "Scale system infrastructure"
+        - "Scale with automation"
+        - "Scale our knowledge"
+
+    # philosophy item loop
+    - title : "Our Mission"
+      content : "To build DevSecOps Platform in one day"
+      bullet_point:
+        - "Automate"
+        - "Reliable"
+        - "Secure"
+
     # philosophy item loop
     - title : "Our Approach"
-      content : "Lorem ipsum dolor sit amet consectetur adip isicing elit sed do eiusmod tempor incididunt ut labore."
+      content : "We will provide you a professional service"
       bullet_point:
+        - "Honesty"
         - "Quality Services"
-        - "Clients Satisfaction"
-        
-    # philosophy item loop
-    - title : "Our Philosophy"
-      content : "Lorem ipsum dolor sit amet consectetur adip isicing elit sed do eiusmod tempor incididunt ut labore."
-      bullet_point:
-        - "Quality Services"
-        - "Clients Satisfaction"
+        - "Win-Win Solution"
 
 ################################### about ###########################
 about:
@@ -30,10 +33,10 @@ about:
 
 ################################### service ###########################
 service:
-  enable : true
+  enable : false
   # service item comes from `content/*/service` folder
 
 ################################### team ###########################
 team: 
-  enable : true
+  enable : false
   # team member comes from `content/*/team` folder

@@ -10,16 +10,17 @@ slider:
       bg_image : "images/slider/banner-1.jpg"
       animation : "fadeInUp" # animation select from : https://daneden.github.io/animate.css/
       button:
-        enable : false
+        enable : true
         label : "more details"
         link : "about"
         animation : "zoomIn" # animation select from : https://daneden.github.io/animate.css/
     # slider item
     - subtitle : "We build"
       title : "DevSecOps Platform"
-      content : "to transform your organization at greater speed and agility for developer, operation and security team"
+      content : "to transform your organization at greater speed and agility for developer, 
+        operation and security team"
       # bg_image_webp : "images/slider/banner-1.webp"
-      bg_image : "images/slider/banner-4.jpg"
+      bg_image : "images/slider/banner-3.jpg"
       animation : "fadeInUp" # animation select from : https://daneden.github.io/animate.css/
       button:
         enable : false
@@ -35,37 +36,68 @@ banner_feature:
     # banner feature item loop
     - name : "DevSecOps Platform"
       icon : "fa-rocket" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-      content : "We provide Enterprise DevSecOps Platform to transform your organization at greater speed and agility for developer, operation and security team"
+      content : "We provide Enterprise DevSecOps Platform to transform your organization 
+        at more incredible speed and agility for the developer, operation, and security team"
       
     # banner feature item loop
     - name : "Centralized Monitoring"
       icon : "fa-bar-chart" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-      content : "We build centralized monitoring by automated CNCF Open Source Software to see real-time performance and early detection of problems"
+      content : "We build centralized monitoring by automated CNCF open-source software to 
+        see the real-time performance and early detection problems"
 
     # banner feature item loop
     - name : "Hybrid-Cloud Infrastructure"
       icon : "fa-cloud" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-      content : "Build on-demand self-service enterprise hybrid-cloud infrastructure to rapid elasticity and scalability at ease with automation"
+      content : "Build on-demand self-service enterprise hybrid-cloud infrastructure to 
+        rapid elasticity and scalability at ease with automation"
       
     # banner feature item loop
     - name : "Security Automation"
       icon : "fa-shield" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-      content : "We early identification of vulnerabilities by leverage security automation to integrate both enterprise and open source software from first day of development"
+      content : "We early identification of vulnerabilities by leverage security automation to 
+        integrate both enterprise and open-source software from the first day of development"
 
 
 # ################################## about ####################################
-# about:
-#   enable : true
-#   subtitle : "About Us"
-#   title : "We Are Dynamic Team and Business Agency"
-#   content : "Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est. laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium."
-#   bg_image : "images/backgrounds/about-us-bg.png"
-#   image_webp : "images/about/about-us.webp"
-#   image : "images/about/about-us.png"
-#   button:
-#     enable : true;
-#     label : "more service"
-#     link : "service"
+about:
+  enable : true
+  subtitle : "About Us"
+  title : "We Are Technology Expert Consultant Team"
+  content : "
+    We are the **Enterprise Open Source Technical Consultant & Implementation Team** that focuses on 
+    **DevSecOps Transformation** with our experienced professional teams to build **High Availability** 
+    and **Scalability** platform. We specialize in these technologies to transform your organization 
+    into **DevSecOps Culture**.
+
+    * **Cloud Technologies** with all Private, Public, and Hybrid Clouds such as AWS, GCP, Azure, VMware.
+
+    * **Container Technologies** such as Docker, Kubernetes, Tanzu, OpenShift.
+
+    * **Automation, Infrastructure as Code (IaC), and GitOps** such as Ansible, Terraform.
+
+    * **Continuous Integration and Continuous Delivery/Deployment (CI/CD)** such as GitLab CI, Jenkins, 
+    CircleCI, Azure DevOps, FluxCD, ArgoCD.
+
+    * **Security Automation** with Enterprise and Open-Source Software from the first day of development
+    such as Security Baseline Hardening, SAST, DAST, RASP, SCA, VA Scan, PAM, Container and Cloud Security.
+
+    * **Centralized Monitoring** from infrastructure to application layer such as Prometheus, Thanos, 
+    Grafana, Loki, ELK, EFK, Graylog.
+
+    * **Performance Load Testing** with real user simulation and analysis for system bottleneck such as 
+    JMeter, Locust.
+
+
+    These will help our customers to increase business efficiency and reliability at more incredible 
+    speed and agility.
+    "
+  bg_image : "images/backgrounds/about-us-bg.png"
+  image_webp : "images/about/about-us.webp"
+  image : "images/about/about-us.png"
+  button:
+    enable : true
+    label : "more service"
+    link : "service"
 
 # ################################## funfacts ###############################
 # funfacts :
