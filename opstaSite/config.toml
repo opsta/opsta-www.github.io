@@ -50,9 +50,14 @@ link = "plugins/search/search.js"
 ########################### navigation ################################
 # main menu
 [[menu.main]]
+name = "About"
+# URL = "about"
+weight = 2
+
+[[menu.main]]
 name = "Solutions & Services"
 # URL = "solution"
-weight = 2
+weight = 3
 hasChildren = true
 
   [[menu.main]]
@@ -103,15 +108,10 @@ hasChildren = true
   # URL = "sre"
   weight = 9
 
-[[menu.main]]
-name = "About"
-# URL = "about"
-weight = 3
-
-[[menu.main]]
-name = "Contact"
-URL = "contact"
-weight = 4
+# [[menu.main]]
+# name = "Contact"
+# URL = "contact"
+# weight = 4
 
 # [[menu.main]]
 # name = "Blog"
@@ -162,11 +162,11 @@ search = true
 enable = true
 preloader = "" # use jpg, png, svg or gif format.
 
-# # Navigation button
-# [params.navigation_button]
-# enable = true
-# label = "get a quote"
-# link = "contact"
+# Navigation button
+[params.navigation_button]
+enable = true
+label = "contact"
+link = "contact"
 
 # Subscription
 [params.subscription]
@@ -179,26 +179,26 @@ mailchimp_form_name = "opsta_subscription" # replace this code with yours
 [params.map]
 enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyA2Gs21l6RN2uAQryeYtWoDN_JcvAQcFgA"
-map_latitude = "13.811391"
-map_longitude = "100.5648866"
+map_latitude = "13.8113858"
+map_longitude = "100.5670806"
 map_marker = "images/marker.png"
 
 ########################### social icon ############################
 [[params.social]]
 icon = "fa-facebook"
-URL = "https://facebook.com/opstacloud"
+link = "https://facebook.com/opstacloud"
 
 [[params.social]]
 icon = "fa-twitter"
-URL = "https://twitter.com/opstacloud"
+link = "https://twitter.com/opstacloud"
 
 [[params.social]]
 icon = "fa-github"
-URL = "https://github.com/opsta"
+link = "https://github.com/opsta"
 
 # [[params.social]]
 # icon = "fa-instagram"
-# URL = "https://instagram.com/themefisher"
+# link = "https://instagram.com/themefisher"
 
 ################################### English language #####################################
 [Languages.en]

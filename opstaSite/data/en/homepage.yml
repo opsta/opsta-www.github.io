@@ -5,7 +5,7 @@ slider:
     # slider item
     - subtitle : "We are"
       title : "Technology Expert Consultant Team"
-      content : "With expertise in Cloud Native System Integrator & Solution Implementer"
+      content : "With expertise in Cloud Native Solution Implementer & System Integrator"
       # bg_image_webp : "images/slider/banner-1.webp"
       bg_image : "images/slider/banner-1.jpg"
       animation : "fadeInUp" # animation select from : https://daneden.github.io/animate.css/
@@ -13,6 +13,18 @@ slider:
         enable : false
         label : "more details"
         link : "about"
+        animation : "zoomIn" # animation select from : https://daneden.github.io/animate.css/
+    # slider item
+    - subtitle : "We build"
+      title : "DevSecOps Platform"
+      content : "to transform your organization at greater speed and agility for developer, operation and security team"
+      # bg_image_webp : "images/slider/banner-1.webp"
+      bg_image : "images/slider/banner-4.jpg"
+      animation : "fadeInUp" # animation select from : https://daneden.github.io/animate.css/
+      button:
+        enable : false
+        label : "more details"
+        link : "devsecops-platform"
         animation : "zoomIn" # animation select from : https://daneden.github.io/animate.css/
 
 ################################## banner feature ############################
@@ -22,23 +34,23 @@ banner_feature:
   feature_item:
     # banner feature item loop
     - name : "DevSecOps Platform"
-      icon : "fa-diamond" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-      content : "We provide you with DevSecOps as a Service Platform"
+      icon : "fa-rocket" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+      content : "We provide Enterprise DevSecOps Platform to transform your organization at greater speed and agility for developer, operation and security team"
       
     # banner feature item loop
     - name : "Centralized Monitoring"
       icon : "fa-bar-chart" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-      content : "Centralized and standardize your monitoring with open source and automation"
+      content : "We build centralized monitoring by automated CNCF Open Source Software to see real-time performance and early detection of problems"
+
+    # banner feature item loop
+    - name : "Hybrid-Cloud Infrastructure"
+      icon : "fa-cloud" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+      content : "Build on-demand self-service enterprise hybrid-cloud infrastructure to rapid elasticity and scalability at ease with automation"
       
     # banner feature item loop
-    - name : "Automation Infrastructure"
-      icon : "fa-lightbulb-o" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-      content : "Self-manage your infrastructure at ease with automation"
-      
-    # banner feature item loop
-    - name : "Automation Security"
-      icon : "fa-dashboard" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-      content : "Security won't be a blocker to speed application release with automation"
+    - name : "Security Automation"
+      icon : "fa-shield" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+      content : "We early identification of vulnerabilities by leverage security automation to integrate both enterprise and open source software from first day of development"
 
 
 # ################################## about ####################################
