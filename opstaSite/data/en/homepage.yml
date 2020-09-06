@@ -35,28 +35,27 @@ banner_feature:
   feature_item:
     # banner feature item loop
     - name : "DevSecOps Platform"
-      icon : "fa-rocket" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+      icon : "fa-rocket" # font-awesome 5.14.0 : https://fontawesome.com/v5.14.0/icons/
       content : "We provide Enterprise DevSecOps Platform to transform your organization 
         at more incredible speed and agility for the developer, operation, and security team"
       
     # banner feature item loop
     - name : "Centralized Monitoring"
-      icon : "fa-bar-chart" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+      icon : "fa-chart-bar" # font-awesome 5.14.0 : https://fontawesome.com/v5.14.0/icons/
       content : "We build centralized monitoring by automated CNCF open-source software to 
         see the real-time performance and early detection problems"
 
     # banner feature item loop
     - name : "Hybrid-Cloud Infrastructure"
-      icon : "fa-cloud" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+      icon : "fa-cloud" # font-awesome 5.14.0 : https://fontawesome.com/v5.14.0/icons/
       content : "Build on-demand self-service enterprise hybrid-cloud infrastructure to 
         rapid elasticity and scalability at ease with automation"
-      
+
     # banner feature item loop
     - name : "Security Automation"
-      icon : "fa-shield" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+      icon : "fa-user-shield" # font-awesome 5.14.0 : https://fontawesome.com/v5.14.0/icons/
       content : "We early identification of vulnerabilities by leverage security automation to 
         integrate both enterprise and open-source software from the first day of development"
-
 
 # ################################## about ####################################
 about:
@@ -106,22 +105,22 @@ about:
 #     # fanfacts item loop
 #     - name : "project done"
 #       count : "50"
-#       icon : "fa-bullseye" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+#       icon : "fa-bullseye" # font-awesome 5.14.0 : https://fontawesome.com/v5.14.0/icons/
       
 #     # fanfacts item loop
 #     - name : "Years Experience"
 #       count : "25"
-#       icon : "fa-calendar" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+#       icon : "fa-calendar" # font-awesome 5.14.0 : https://fontawesome.com/v5.14.0/icons/
       
 #     # fanfacts item loop
 #     - name : "Awards Win"
 #       count : "250"
-#       icon : "fa-trophy" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+#       icon : "fa-trophy" # font-awesome 5.14.0 : https://fontawesome.com/v5.14.0/icons/
       
 #     # fanfacts item loop
 #     - name : "Happy Coustomers"
 #       count : "500"
-#       icon : "fa-smile-o" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+#       icon : "fa-smile-o" # font-awesome 5.14.0 : https://fontawesome.com/v5.14.0/icons/
 
 
 # ################################# feature ############################################
@@ -135,20 +134,20 @@ about:
 #   feature_item:
 #     # feature item loop
 #     - name : "Creative Design"
-#       icon : "fa-snowflake-o" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+#       icon : "fa-snowflake-o" # font-awesome 5.14.0 : https://fontawesome.com/v5.14.0/icons/
 #       content : "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia."
       
 #     # feature item loop
 #     - name : "Pixel Perfect Coding"
-#       icon : "fa-code" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+#       icon : "fa-code" # font-awesome 5.14.0 : https://fontawesome.com/v5.14.0/icons/
 #       content : "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia."
 
 # ################################# service ############################################
-# service:
-#   enable : true
-#   subtitle : "Best Service"
-#   title : "Service We Provide"
-#   # service item comes from "content/*/service" folder
+service:
+  enable : true
+  subtitle : "Professional"
+  title : "Solutions & Services We Provide"
+  # service item comes from "content/*/service" folder
 
 # ################################# team ##############################################
 # team:
@@ -191,7 +190,6 @@ about:
 #       name : "John Doe"
 #       designation : "Designer"
 #       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed eiusmod tempor incididunt ut labore dolore magna aliqua.enim ad minim veniam.quis nostrud exercitation ullamco laboris nis aliquip ex ea commodo consequat. duis aute irure dolor in reprehen."
-
 
 # ################################# blog ################################################
 # cta:

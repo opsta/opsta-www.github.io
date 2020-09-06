@@ -255,18 +255,27 @@
   }
 }
 
+.social-icon-top {
+  li {
+    a {
+      font-size: medium;
+    }
+  }
+}
+
 .social-icon {
   li {
     a {
       display: inline-block;
-      height: 45px;
-      width: 45px;
+      height: 50px;
+      width: 50px;
       border-radius: 50%;
       color: $white;
       border: 1px solid $white;
       background: transparent;
-      line-height: 45px;
+      line-height: 50px;
       text-align: center;
+      font-size: xx-large;
 
       &:hover {
         color: $primary-color;
@@ -280,14 +289,15 @@
   li {
     a {
       display: inline-block;
-      height: 45px;
-      width: 45px;
+      height: 50px;
+      width: 50px;
       border-radius: 50%;
       color: $white;
       border: 1px solid $white;
       background: transparent;
-      line-height: 45px;
+      line-height: 50px;
       text-align: center;
+      font-size: xx-large;
 
       &:hover {
         color: $white;
@@ -510,6 +520,7 @@
     position: absolute;
     content: "\f10d";
     font-family: $icon-font;
+    font-weight: 900;
     font-size: 150px;
     color: rgba($color: $primary-color, $alpha: .3);
     top: -10px;
@@ -612,6 +623,7 @@
       position: absolute;
       content: "\f105";
       font-family: $icon-font;
+      font-weight: 900;
       font-size: 14px;
       left: 0;
       top: 1px;
@@ -638,7 +650,7 @@
 
   &.style-circle {
     li::before {
-      content: "\f10c";
+      content: "\f192";
     }
   }
 }

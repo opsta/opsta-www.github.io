@@ -84,6 +84,7 @@ blockquote {
     position: absolute;
     content: "\f10d";
     font-family: $icon-font;
+    font-weight: 900;
     font-size: 100px;
     color: rgba($color: $primary-color, $alpha: .3);
     top: 50%;

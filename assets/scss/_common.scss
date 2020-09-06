@@ -522,8 +522,9 @@ textarea.form-control-sm {
 
       &::before {
         position: absolute;
-        content: "\f10c";
+        content: "\f192";
         font-family: $icon-font;
+        font-weight: 900;
         font-size: 14px;
         left: 0;
         top: 1px;

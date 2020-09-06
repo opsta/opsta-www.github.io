@@ -15,7 +15,7 @@
           <ul class="list-inline social-icon-alt">
             {{ range .Site.Params.social }}
             <li class="list-inline-item">
-              <a class="hover-ripple" href="{{ .link | safeURL }}"><i class="fa {{ .icon }}"></i></a>
+              <a class="hover-ripple" href="{{ .link | safeURL }}"><i class="fab {{ .icon }}"></i></a>
             </li>
             {{ end }}
           </ul>
@@ -24,21 +24,23 @@
           <div class="row">
             <!-- service list -->
             <div class="col-6 mb-5">
-              <!-- <h4 class="text-white mb-4">{{ i18n "services" }}</h4> -->
-              <!-- <ul class="list-styled">
+              <h4 class="text-white mb-4">{{ i18n "services" }}</h4>
+              <ul class="list-styled">
                 {{ range (where .Site.RegularPages "Type" "service")}}
                 <li class="mb-3 text-light"><a class="text-light d-block" href="{{ .Permalink }}">{{ .Title }}</a>
                 </li>
                 {{ end }}
-              </ul> -->
+              </ul>
             </div>
             <!-- contact info -->
             <div class="col-6 mb-5">
               <h4 class="text-white mb-4">{{ i18n "contact_info"}}</h4>
               <ul class="list-unstyled">
-                <li class="text-light mb-3">{{ .Site.Params.mobile }}</li>
-                <li class="text-light mb-3">{{ .Site.Params.email }}</li>
-                <li class="text-light mb-3">{{ .Site.Params.address }}</li>
+                <li class="text-light mb-3">{{ .Site.Params.company_name }}</li>
+                <li class="text-light mb-3">Tax ID: {{ .Site.Params.tax_id }}</li>
+                <li class="text-light mb-3"><a class="text-light d-block" href="{{ .Site.Params.gmap_url }}">{{ .Site.Params.address }}</a></li>
+                <li class="text-light mb-3"><a class="text-light d-block" href="tel:{{ .Site.Params.mobile }}">{{ .Site.Params.mobile }}</a></li>
+                <li class="text-light mb-3"><a class="text-light d-block" href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></li>
               </ul>
             </div>
             {{ if .Site.Params.subscription.enable }}

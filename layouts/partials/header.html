@@ -8,9 +8,9 @@
         {{ "<!-- social icons -->" | safeHTML }}
         <div class="col-lg-6 col-md-6 text-center text-md-left">
           <span class="text-white">{{ i18n "connect_with_us" }}:</span>
-          <ul class="list-inline d-inline-block">
+          <ul class="list-inline d-inline-block social-icon-top">
             {{ range .Site.Params.social }}
-            <li class="list-inline-item"><a class="text-white d-inline-block p-2" href="{{ .link | safeURL }}"><i class="fa {{ .icon }}"></i></a></li>
+            <li class="list-inline-item"><a class="text-white d-inline-block p-2" href="{{ .link | safeURL }}"><i class="fab {{ .icon }}"></i></a></li>
             {{ end }}
           </ul>
         </div>
@@ -60,6 +60,19 @@
               <a class="nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
             </li>
             {{ end }}
+            {{ end }}
+            {{ if .Site.Params.menu_services }}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="service" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                {{ i18n `services`}}
+              </a>
+              <div class="dropdown-menu" >
+                {{ range (where .Site.RegularPages "Type" "service")}}
+                <a class="dropdown-item" href="{{ .Permalink }}">{{ .Title }}</a>
+                {{ end }}
+              </div>
+            </li>
             {{ end }}
           </ul>
 

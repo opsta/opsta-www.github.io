@@ -1,10 +1,14 @@
 <head>
   <meta charset="utf-8">
+  {{ if .IsHome }}
   <title>{{ .Title }}</title>
+  {{ else }}
+  <title>{{ .Site.Params.title_prefix }} | {{ .Title }}</title>
+  {{ end }}
 
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  <meta name="description" content="{{ with .Description }}{{ . }} | {{ end }}{{ .Site.Params.description }}">
   {{ with .Site.Params.author }}
   <meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}

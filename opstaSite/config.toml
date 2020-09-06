@@ -21,7 +21,7 @@ link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
 [[params.plugins.css]]
-link = "plugins/fontawesome/font-awesome.min.css"
+link = "plugins/fontawesome/fontawesome.all.min.css"
 [[params.plugins.css]]
 link = "plugins/animate/animate.css"
 [[params.plugins.css]]
@@ -54,80 +54,16 @@ name = "About"
 URL = "about"
 weight = 2
 
-[[menu.main]]
-name = "Solutions & Services"
-# URL = "services"
-weight = 3
-hasChildren = true
-
-  [[menu.main]]
-  parent = "Solutions & Services"
-  name = "DevSecOps Platform"
-  # URL = "devsecops-platform"
-  weight = 2
-
-  [[menu.main]]
-  parent = "Solutions & Services"
-  name = "Centralized Monitoring"
-  # URL = "centralized-monitoring"
-  weight = 3
-
-  [[menu.main]]
-  parent = "Solutions & Services"
-  name = "Cloud Migration"
-  # URL = "cloud-migration"
-  weight = 4
-
-  [[menu.main]]
-  parent = "Solutions & Services"
-  name = "Automation Infrastructure"
-  # URL = "automation-infrastructure"
-  weight = 5
-
-  [[menu.main]]
-  parent = "Solutions & Services"
-  name = "Automation Security"
-  # URL = "automation-security"
-  weight = 6
-
-  [[menu.main]]
-  parent = "Solutions & Services"
-  name = "Performance Load Testing"
-  # URL = "performance-load-testing"
-  weight = 7
-
-  [[menu.main]]
-  parent = "Solutions & Services"
-  name = "Data Pipeline"
-  # URL = "data-pipeline"
-  weight = 8
-
-  [[menu.main]]
-  parent = "Solutions & Services"
-  name = "Site Reliability Engineering (SRE)"
-  # URL = "sre"
-  weight = 9
-
-# [[menu.main]]
-# name = "Contact"
-# URL = "contact"
-# weight = 4
-
-# [[menu.main]]
-# name = "Blog"
-# URL = "blog"
-# weight = 4
-
 # footer menu
 [[menu.footer]]
 name = "Solutions & Services"
-# URL = "solution"
+URL = "services"
 weight = 2
 hasChildren = true
 
 [[menu.footer]]
 name = "About"
-# URL = "about"
+URL = "about"
 weight = 3
 
 [[menu.footer]]
@@ -141,13 +77,18 @@ logo = "images/opsta-logo.png"
 logo_footer = "images/opsta-logo-white.png"
 # top header
 top_header = true
+# Prefix title
+title_prefix = "Opsta | DevSecOps as a Service"
 # Meta data
-description = "Opsta (Thailand) Co.,Ltd. We provide DevSecOps as a Service."
+description = "Opsta provides Enterprise DevSecOps Platform as a Service with our Enterprise CNCF Open Source Technical Consultant and Implementation Team to transform your organization to DevSecOps culture."
 author = "Opsta"
 # contact info
+company_name = "Opsta (Thailand) Co.,Ltd."
+tax_id = "0105559166030"
 address = "677/12 Ladprao Road, Chom Phon, Chatuchak, Bangkok 10900"
 mobile = "+66611234089"
 email = "contact@opsta.co.th"
+gmap_url = "https://goo.gl/maps/qRwgWptkpsSRCJiH8"
 # contact form action
 contact_form_action = "https://formspree.io/mbjzndjn" # contact form works with https://formspree.io
 # Google Analitycs
@@ -156,6 +97,8 @@ google_analitycs_id = "UA-130152-29" # your id
 quick_contact = true
 # search
 search = true
+# services menu
+menu_services = true
 
 # Preloader
 [params.preloader]
@@ -165,7 +108,7 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "contact"
+label = "contact us"
 link = "contact"
 
 # Subscription
@@ -189,12 +132,16 @@ icon = "fa-facebook"
 link = "https://facebook.com/opstacloud"
 
 [[params.social]]
-icon = "fa-twitter"
-link = "https://twitter.com/opstacloud"
+icon = "fa-line"
+link = "http://line.me/ti/p/%40opsta"
 
 [[params.social]]
 icon = "fa-github"
 link = "https://github.com/opsta"
+
+[[params.social]]
+icon = "fa-twitter"
+link = "https://twitter.com/opstacloud"
 
 # [[params.social]]
 # icon = "fa-instagram"
@@ -208,10 +155,9 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 # footer content
-footer_content = "Opsta | DevSecOps as a Service"
+footer_content = "We provides Enterprise DevSecOps Platform as a Service with our Enterprise CNCF Open Source Technical Consultant and Implementation Team to transform your organization to DevSecOps culture."
 # copyright
 copyright = "Copyright &copy; 2020 Opsta (Thailand) Co.,Ltd."
-
 
 ################################### Thai language #####################################
 # [Languages.th]
