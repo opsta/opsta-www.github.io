@@ -8,26 +8,44 @@
 <section class="section pb-0">
   <div class="container">
     <div class="row">
-      {{ "<!-- Addresses -->" | safeHTML }}
-      <div class="col-md-4 mb-4 mb-md-0">
+      {{ "<!-- Facebook -->" | safeHTML }}
+      <div class="col-lg-4 col-sm-6 mb-4">
         <div class="bg-white box-shadow text-center p-5 px-md-2 px-lg-5">
-          <i class="fa fa-map-marker text-primary icon-lg mb-4"></i>
-          <h4 class="mb-4">{{ i18n "address" }}</h4>
-          <p>{{ .Site.Params.address | markdownify }}</p>
+          <i class="fab fa-facebook icon-lg mb-4" style="color:#3b5998"></i>
+          <h4 class="mb-4">Facebook Messenger</h4>
+          <p><a href="{{ .Site.Params.fb_msg_url | safeURL }}">{{ .Site.Params.fb_msg_url | safeURL }}</a></p>
         </div>
       </div>
-      <div class="col-md-4 mb-4 mb-md-0">
+      {{ "<!-- Line OA -->" | safeHTML }}
+      <div class="col-lg-4 col-sm-6 mb-4">
         <div class="bg-white box-shadow text-center p-5 px-md-2 px-lg-5">
-          <i class="fa fa-phone text-primary icon-lg mb-4"></i>
-          <h4 class="mb-4">{{ i18n "phone" }}</h4>
-          <p>{{ .Site.Params.mobile | markdownify }}</p>
+          <i class="fab fa-line icon-lg mb-4" style="color:#00B900"></i>
+          <h4 class="mb-4">Line Official Account</h4>
+          <p><a href="{{ .Site.Params.line_url | safeURL }}">{{ .Site.Params.line_oa | markdownify }}</a></p>
         </div>
       </div>
-      <div class="col-md-4 mb-4 mb-md-0">
+      {{ "<!-- Email -->" | safeHTML }}
+      <div class="col-lg-4 col-sm-6 mb-4">
         <div class="bg-white box-shadow text-center p-5 px-md-2 px-lg-5">
           <i class="fa fa-envelope text-primary icon-lg mb-4"></i>
           <h4 class="mb-4">{{ i18n "email" }}</h4>
           <p>{{ .Site.Params.email | markdownify }}</p>
+        </div>
+      </div>
+      {{ "<!-- Phone -->" | safeHTML }}
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="bg-white box-shadow text-center p-5 px-md-2 px-lg-5">
+          <i class="fa fa-phone text-primary icon-lg mb-4"></i>
+          <h4 class="mb-4">{{ i18n "phone" }}</h4>
+          <p><a href="tel:{{ .Site.Params.mobile | markdownify }}">{{ .Site.Params.mobile | markdownify }}</a></p><br/>
+        </div>
+      </div>
+      {{ "<!-- Addresses -->" | safeHTML }}
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="bg-white box-shadow text-center p-5 px-md-2 px-lg-5">
+          <i class="fa fa-map-marker text-primary icon-lg mb-4"></i>
+          <h4 class="mb-4">{{ i18n "address" }}</h4>
+          <p><a href="{{ .Site.Params.gmap_url | safeURL }}">{{ .Site.Params.address | markdownify }}</a></p>
         </div>
       </div>
     </div>

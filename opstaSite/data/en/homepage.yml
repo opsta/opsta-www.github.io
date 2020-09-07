@@ -192,15 +192,15 @@ service:
 #       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed eiusmod tempor incididunt ut labore dolore magna aliqua.enim ad minim veniam.quis nostrud exercitation ullamco laboris nis aliquip ex ea commodo consequat. duis aute irure dolor in reprehen."
 
 # ################################# blog ################################################
-# cta:
-#   enable : true
-#   title : "Bexar give the smart solution for your business"
-#   bg_image_webp : "images/backgrounds/cta-lg.webp"
-#   bg_image : "images/backgrounds/cta-lg.jpg"
-#   button:
-#     enable : true
-#     label : "get a quote"
-#     link : "contact"
+cta:
+  enable : true
+  title : "If you want to know more about Opsta Solutions & Services"
+  bg_image_webp : "images/backgrounds/cta-lg.webp"
+  bg_image : "images/backgrounds/cta-lg.jpg"
+  button:
+    enable : true
+    label : "Contact Us"
+    link : "contact"
 
 # ################################# blog ################################################
 # blog:
