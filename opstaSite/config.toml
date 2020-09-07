@@ -57,7 +57,7 @@ weight = 2
 # footer menu
 [[menu.footer]]
 name = "Solutions & Services"
-URL = "services"
+URL = "service"
 weight = 2
 hasChildren = true
 
