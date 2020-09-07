@@ -128,16 +128,16 @@ map_marker = "images/marker.png"
 
 ########################### social icon ############################
 [[params.social]]
+icon = "fa-github"
+link = "https://github.com/opsta"
+
+[[params.social]]
 icon = "fa-facebook"
 link = "https://facebook.com/opstacloud"
 
 [[params.social]]
 icon = "fa-line"
 link = "http://line.me/ti/p/%40opsta"
-
-[[params.social]]
-icon = "fa-github"
-link = "https://github.com/opsta"
 
 [[params.social]]
 icon = "fa-twitter"
