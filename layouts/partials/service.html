@@ -1,7 +1,7 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
 {{ "<!-- service -->" | safeHTML }}
-  <section class="bg-gray-white">
+  <section>
     <div class="section bg-secondary section-bottom-lg">
       <div class="container">
         <div class="row">
@@ -20,10 +20,13 @@
         <div class="row">
           {{ range first 3 ( where .Site.RegularPages "Type" "service") }}
           {{ "<!-- service-item -->" | safeHTML }}
-          <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+          <div class="col-lg-4 col-sm-6 mb-4">
             {{ .Render "service" }}
           </div>
           {{ end }}
+        </div>
+        <div class="text-center">
+          <a href="/service" class="btn btn-primary hover-ripple">More Services</a>
         </div>
       </div>
     </div>

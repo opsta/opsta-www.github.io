@@ -95,8 +95,8 @@ about:
   image : "images/about/about-us.png"
   button:
     enable : true
-    label : "more service"
-    link : "service"
+    label : "more about us"
+    link : "about"
 
 # ################################## funfacts ###############################
 # funfacts :
