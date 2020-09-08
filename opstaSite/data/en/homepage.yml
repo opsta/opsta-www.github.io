@@ -194,7 +194,7 @@ service:
 # ################################# blog ################################################
 cta:
   enable : true
-  title : "If you want to know more about Opsta Solutions & Services"
+  title : "Want to know more information?"
   bg_image_webp : "images/backgrounds/cta-lg.webp"
   bg_image : "images/backgrounds/cta-lg.jpg"
   button:
