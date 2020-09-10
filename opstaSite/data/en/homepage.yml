@@ -94,7 +94,7 @@ about:
   image_webp : "images/about/about-us.webp"
   image : "images/about/about-us.png"
   button:
-    enable : true
+    enable : false
     label : "more about us"
     link : "about"
 
