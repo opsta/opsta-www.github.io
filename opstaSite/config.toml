@@ -73,7 +73,7 @@ weight = 4
 
 ########################### Default parameters ######################
 [params]
-logo = "images/opsta-logo.svg"
+logo = "images/opsta-logo-slogan.svg"
 logo_footer = "images/opsta-logo-white.png"
 # top header
 top_header = true
