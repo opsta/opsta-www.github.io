@@ -91,7 +91,7 @@ about:
     speed and agility.
     "
   bg_image : "images/backgrounds/about-us-bg.png"
-  image_webp : "images/about/about-us.webp"
+  # image_webp : "images/about/about-us.webp"
   image : "images/about/about-us.png"
   button:
     enable : false
