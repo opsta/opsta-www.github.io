@@ -1,8 +1,7 @@
 ---
-title: "Hybrid-Cloud Infrastructure"
+title: "Hybrid Multicloud"
 # meta description
-description: "Build on-demand self-service enterprise hybrid-cloud infrastructure to 
-  rapid elasticity and scalability at ease with automation"
+description: "We build Enterprise Hybrid Multicloud to rapid elasticity and scalability at ease with automation"
 # page title background image
 bg_image_webp: "images/backgrounds/page-title.webp"
 bg_image: "images/backgrounds/page-title.jpg"
@@ -16,4 +15,4 @@ type: "service"
 weight: 30
 ---
 
-We build on-demand self-service enterprise hybrid-cloud infrastructure to rapid elasticity and scalability at ease with automation.
+We build Enterprise Hybrid Multicloud to rapid elasticity and scalability at ease with automation.

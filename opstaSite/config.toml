@@ -160,7 +160,7 @@ home = "Home"
 # footer content
 footer_content = "We provides Enterprise DevSecOps Platform as a Service with our Enterprise CNCF Open Source Technical Consultant and Implementation Team to transform your organization to DevSecOps culture."
 # copyright
-copyright = "Copyright &copy; 2020 Opsta (Thailand) Co.,Ltd."
+copyright = "Copyright &copy; 2021 Opsta (Thailand) Co.,Ltd."
 
 ################################### Thai language #####################################
 # [Languages.th]
@@ -172,4 +172,4 @@ copyright = "Copyright &copy; 2020 Opsta (Thailand) Co.,Ltd."
 # # footer content
 # footer_content = "Opsta | DevSecOps as a Service"
 # # copyright
-# copyright = "Copyright &copy; 2020 Opsta (Thailand) Co.,Ltd."
+# copyright = "Copyright &copy; 2021 Opsta (Thailand) Co.,Ltd."

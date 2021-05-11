@@ -1,5 +1,5 @@
 ---
-title: "Infrastructure Automation"
+title: "Operation as a Service"
 # meta description
 description: "We build on-demand self-service infrastructure to rapid elasticity and scalability at ease with automation"
 # page title background image
