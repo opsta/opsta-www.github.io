@@ -22,6 +22,9 @@
 - id: services
   translation: Solutions & Services
 
+- id: careers
+  translation: Join us
+
 - id: contact_info
   translation: Contact Info
 

@@ -22,6 +22,9 @@
 - id: services
   translation: บริการของเรา
 
+- id: careers
+  translation: ร่วมงานกับเรา
+
 - id: contact_info
   translation: รายละเอียดการติดต่อ
 
