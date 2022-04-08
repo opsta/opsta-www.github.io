@@ -149,6 +149,14 @@ service:
   title : "Solutions & Services We Provide"
   # service item comes from "content/*/service" folder
 
+# ################################# career ############################################
+career:
+  enable : true
+  subtitle : "Career"
+  title : "Join us"
+  link : "https://opsta.grovehr.com/careers"
+  # service item comes from "content/*/career" folder
+
 # ################################# team ##############################################
 # team:
 #   enable : true
