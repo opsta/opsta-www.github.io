@@ -74,6 +74,11 @@
               </div>
             </li>
             {{ end }}
+            {{ if .Site.Menus.careers }}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
           </ul>
 
           <!-- Language List -->
