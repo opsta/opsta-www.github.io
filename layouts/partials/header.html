@@ -74,7 +74,7 @@
               </div>
             </li>
             {{ end }}
-            {{ if .Site.Menus.careers }}
+            {{ range .Site.Menus.careers }}
             <li class="nav-item">
               <a class="nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
             </li>
