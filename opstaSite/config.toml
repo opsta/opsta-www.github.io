@@ -54,6 +54,12 @@ name = "About"
 URL = "about"
 weight = 2
 
+# join us
+[[menu.footer]]
+name = "Join us"
+URL = "https://opsta.grovehr.com/careers"
+weight = 1
+
 # footer menu
 [[menu.footer]]
 name = "Solutions & Services"
