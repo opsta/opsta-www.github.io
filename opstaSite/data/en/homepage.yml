@@ -3,8 +3,8 @@ slider:
     enable: true
     slider_item:
         # slider item
-        - subtitle: "We are"
-          title: "OPSTELLA PLATFORM"
+        - subtitle: "With"
+          title: "Opstella Platform"
           content: "Will make cloud-native adoption easier, faster, safer, and smarter."
           # bg_image_webp : "images/slider/banner-1.webp"
           bg_image: "images/slider/banner-5.png"
@@ -12,7 +12,7 @@ slider:
           button:
               enable: true
               label: "Go to Opstella website"
-              link: "https://opstella.com"
+              link: "https://www.opstella.com"
               animation: "zoomIn" # animation select from : https://daneden.github.io/animate.css/
         # slider item
         - subtitle: "We are"
