@@ -1,102 +1,114 @@
 ########################### hero slider ############################
 slider:
-  enable : true
-  slider_item:
-    # slider item
-    - subtitle : "We are"
-      title : "Technology Expert Consultant Team"
-      content : "With expertise in Cloud Native Solution Implementer & System Integrator"
-      # bg_image_webp : "images/slider/banner-1.webp"
-      bg_image : "images/slider/banner-1.jpg"
-      animation : "fadeInUp" # animation select from : https://daneden.github.io/animate.css/
-      button:
-        enable : true
-        label : "more details"
-        link : "about"
-        animation : "zoomIn" # animation select from : https://daneden.github.io/animate.css/
-    # slider item
-    - subtitle : "We build"
-      title : "DevSecOps Platform"
-      content : "to transform your organization at greater speed and agility for developer, 
-        operation and security team"
-      # bg_image_webp : "images/slider/banner-1.webp"
-      bg_image : "images/slider/banner-3.jpg"
-      animation : "fadeInUp" # animation select from : https://daneden.github.io/animate.css/
-      button:
-        enable : false
-        label : "more details"
-        link : "devsecops-platform"
-        animation : "zoomIn" # animation select from : https://daneden.github.io/animate.css/
+    enable: true
+    slider_item:
+        # slider item
+        - subtitle: "With"
+          title: "Opstella Platform"
+          content: "Will make cloud-native adoption easier, faster, safer, and smarter."
+          # bg_image_webp : "images/slider/banner-1.webp"
+          bg_image: "images/slider/banner-5.png"
+          animation: "fadeInUp" # animation select from : https://daneden.github.io/animate.css/
+          button:
+              enable: true
+              label: "Go to Opstella website"
+              link: "https://www.opstella.com"
+              animation: "zoomIn" # animation select from : https://daneden.github.io/animate.css/
+        # slider item
+        - subtitle: "We are"
+          title: "Technology Expert Consultant Team"
+          content: "With expertise in Cloud Native Solution Implementer & System Integrator"
+          # bg_image_webp : "images/slider/banner-1.webp"
+          bg_image: "images/slider/banner-1.jpg"
+          animation: "fadeInUp" # animation select from : https://daneden.github.io/animate.css/
+          button:
+              enable: true
+              label: "more details"
+              link: "about"
+              animation: "zoomIn" # animation select from : https://daneden.github.io/animate.css/
+        # slider item
+        - subtitle: "We build"
+          title: "DevSecOps Platform"
+          content: "to transform your organization at greater speed and agility for developer,
+              operation and security team"
+          # bg_image_webp : "images/slider/banner-1.webp"
+          bg_image: "images/slider/banner-3.jpg"
+          animation: "fadeInUp" # animation select from : https://daneden.github.io/animate.css/
+          button:
+              enable: false
+              label: "more details"
+              link: "devsecops-platform"
+              animation: "zoomIn" # animation select from : https://daneden.github.io/animate.css/
 
 ################################## banner feature ############################
 banner_feature:
-  enable : true
-  # Max use 4 item
-  feature_item:
-    # banner feature item loop
-    - name : "DevSecOps Platform"
-      icon : "fa-rocket" # font-awesome 5.14.0 : https://fontawesome.com/v5.14.0/icons/
-      content : "We provide Enterprise DevSecOps Platform to transform your organization 
-        at more incredible speed and agility for the developer, operation, and security team"
-      
-    # banner feature item loop
-    - name : "Centralized Monitoring"
-      icon : "fa-chart-bar" # font-awesome 5.14.0 : https://fontawesome.com/v5.14.0/icons/
-      content : "We build centralized monitoring by automated CNCF open-source software to 
-        see the real-time performance and early detection problems"
+    enable: true
+    # Max use 4 item
+    feature_item:
+        # banner feature item loop
+        - name: "DevSecOps Platform"
+          icon: "fa-rocket" # font-awesome 5.14.0 : https://fontawesome.com/v5.14.0/icons/
+          content: "We provide Enterprise DevSecOps Platform to transform your organization
+              at more incredible speed and agility for the developer, operation, and security team"
 
-    # banner feature item loop
-    - name : "Hybrid-Cloud Infrastructure"
-      icon : "fa-cloud" # font-awesome 5.14.0 : https://fontawesome.com/v5.14.0/icons/
-      content : "Build on-demand self-service enterprise hybrid-cloud infrastructure to 
-        rapid elasticity and scalability at ease with automation"
+        # banner feature item loop
+        - name: "Centralized Monitoring"
+          icon: "fa-chart-bar" # font-awesome 5.14.0 : https://fontawesome.com/v5.14.0/icons/
+          content: "We build centralized monitoring by automated CNCF open-source software to
+              see the real-time performance and early detection problems"
 
-    # banner feature item loop
-    - name : "Security Automation"
-      icon : "fa-user-shield" # font-awesome 5.14.0 : https://fontawesome.com/v5.14.0/icons/
-      content : "We early identification of vulnerabilities by leverage security automation to 
-        integrate both enterprise and open-source software from the first day of development"
+        # banner feature item loop
+        - name: "Hybrid-Cloud Infrastructure"
+          icon: "fa-cloud" # font-awesome 5.14.0 : https://fontawesome.com/v5.14.0/icons/
+          content: "Build on-demand self-service enterprise hybrid-cloud infrastructure to
+              rapid elasticity and scalability at ease with automation"
+
+        # banner feature item loop
+        - name: "Security Automation"
+          icon: "fa-user-shield" # font-awesome 5.14.0 : https://fontawesome.com/v5.14.0/icons/
+          content: "We early identification of vulnerabilities by leverage security automation to
+              integrate both enterprise and open-source software from the first day of development"
 
 # ################################## about ####################################
 about:
-  enable : true
-  subtitle : "About Us"
-  title : "We Are Technology Expert Consultant Team"
-  content : "
-    We are the **Enterprise Open Source Technical Consultant & Implementation Team** that focuses on 
-    **DevSecOps Transformation** with our experienced professional teams to build **High Availability** 
-    and **Scalability** platform. We specialize in these technologies to transform your organization 
-    into **DevSecOps Culture**.
+    enable: true
+    subtitle: "About Us"
+    title: "We Are Technology Expert Consultant Team"
+    content: "
+        We are the **Enterprise Open Source Technical Consultant & Implementation Team** that focuses on
+        **DevSecOps Transformation** with our experienced professional teams to build **High Availability**
+        and **Scalability** platform. We specialize in these technologies to transform your organization
+        into **DevSecOps Culture**.
 
-    * **Cloud Technologies** with all Private, Public, and Hybrid Clouds such as AWS, GCP, Azure, VMware.
+        * **Cloud Technologies** with all Private, Public, and Hybrid Clouds such as AWS, GCP, Azure, VMware.
 
-    * **Container Technologies** such as Docker, Kubernetes, Tanzu, OpenShift.
+        * **Container Technologies** such as Docker, Kubernetes, Tanzu, OpenShift.
 
-    * **Automation, Infrastructure as Code (IaC), and GitOps** such as Ansible, Terraform.
+        * **Automation, Infrastructure as Code (IaC), and GitOps** such as Ansible, Terraform.
 
-    * **Continuous Integration and Continuous Delivery/Deployment (CI/CD)** such as GitLab CI, Jenkins, 
-    CircleCI, Azure DevOps, FluxCD, ArgoCD.
+        * **Continuous Integration and Continuous Delivery/Deployment (CI/CD)** such as GitLab CI, Jenkins,
+        CircleCI, Azure DevOps, FluxCD, ArgoCD.
 
-    * **Security Automation** with Enterprise and Open-Source Software from the first day of development
-    such as Security Baseline Hardening, SAST, DAST, RASP, SCA, VA Scan, PAM, Container and Cloud Security.
+        * **Security Automation** with Enterprise and Open-Source Software from the first day of development
+        such as Security Baseline Hardening, SAST, DAST, RASP, SCA, VA Scan, PAM, Container and Cloud Security.
 
-    * **Centralized Monitoring** from infrastructure to application layer such as Prometheus, Thanos, 
-    Grafana, Loki, ELK, EFK, Graylog.
+        * **Centralized Monitoring** from infrastructure to application layer such as Prometheus, Thanos,
+        Grafana, Loki, ELK, EFK, Graylog.
 
-    * **Performance Load Testing** with real user simulation and analysis for system bottleneck such as 
-    JMeter, Locust.
+        * **Performance Load Testing** with real user simulation and analysis for system bottleneck such as
+        JMeter, Locust.
 
 
-    These will help our customers to increase business efficiency and reliability at more incredible 
-    speed and agility.
-    "
-  bg_image : "images/backgrounds/about-us-bg.png"
-  # image_webp : "images/about/about-us.webp"
-  image : "images/about/about-us.png"
-  button:
-    enable : false
-    label : "more about us"
-    link : "about"
+        These will help our customers to increase business efficiency and reliability at more incredible
+        speed and agility.
+        "
+    bg_image: "images/backgrounds/about-us-bg.png"
+    # image_webp : "images/about/about-us.webp"
+    image: "images/about/about-us.png"
+    button:
+        enable: false
+        label: "more about us"
+        link: "about"
 
 # ################################## funfacts ###############################
 # funfacts :
@@ -106,22 +118,21 @@ about:
 #     - name : "project done"
 #       count : "50"
 #       icon : "fa-bullseye" # font-awesome 5.14.0 : https://fontawesome.com/v5.14.0/icons/
-      
+
 #     # fanfacts item loop
 #     - name : "Years Experience"
 #       count : "25"
 #       icon : "fa-calendar" # font-awesome 5.14.0 : https://fontawesome.com/v5.14.0/icons/
-      
+
 #     # fanfacts item loop
 #     - name : "Awards Win"
 #       count : "250"
 #       icon : "fa-trophy" # font-awesome 5.14.0 : https://fontawesome.com/v5.14.0/icons/
-      
+
 #     # fanfacts item loop
 #     - name : "Happy Coustomers"
 #       count : "500"
 #       icon : "fa-smile-o" # font-awesome 5.14.0 : https://fontawesome.com/v5.14.0/icons/
-
 
 # ################################# feature ############################################
 # feature:
@@ -136,7 +147,7 @@ about:
 #     - name : "Creative Design"
 #       icon : "fa-snowflake-o" # font-awesome 5.14.0 : https://fontawesome.com/v5.14.0/icons/
 #       content : "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia."
-      
+
 #     # feature item loop
 #     - name : "Pixel Perfect Coding"
 #       icon : "fa-code" # font-awesome 5.14.0 : https://fontawesome.com/v5.14.0/icons/
@@ -144,18 +155,18 @@ about:
 
 # ################################# service ############################################
 service:
-  enable : true
-  subtitle : "Professional"
-  title : "Solutions & Services We Provide"
-  # service item comes from "content/*/service" folder
+    enable: true
+    subtitle: "Professional"
+    title: "Solutions & Services We Provide"
+    # service item comes from "content/*/service" folder
 
 # ################################# career ############################################
 career:
-  enable : true
-  subtitle : "Career"
-  title : "Join us"
-  link : "https://opsta.grovehr.com/careers"
-  # service item comes from "content/*/career" folder
+    enable: true
+    subtitle: "Career"
+    title: "Join us"
+    link: "https://opsta.grovehr.com/careers"
+    # service item comes from "content/*/career" folder
 
 # ################################# team ##############################################
 # team:
@@ -186,7 +197,7 @@ career:
 #       name : "Dominic Allen"
 #       designation : "Designer"
 #       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed eiusmod tempor incididunt ut labore dolore magna aliqua.enim ad minim veniam.quis nostrud exercitation ullamco laboris nis aliquip ex ea commodo consequat. duis aute irure dolor in reprehen."
-      
+
 #     # testimonial item loop
 #     - client_image : "images/testimonial/client-2.jpg"
 #       name : "Alex Pitt"
@@ -201,15 +212,14 @@ career:
 
 # ################################# blog ################################################
 cta:
-  enable : true
-  title : "Want to know more information?"
-  bg_image_webp : "images/backgrounds/cta-lg.webp"
-  bg_image : "images/backgrounds/cta-lg.jpg"
-  button:
-    enable : true
-    label : "Contact Us"
-    link : "contact"
-
+    enable: true
+    title: "Want to know more information?"
+    bg_image_webp: "images/backgrounds/cta-lg.webp"
+    bg_image: "images/backgrounds/cta-lg.jpg"
+    button:
+        enable: true
+        label: "Contact Us"
+        link: "contact"
 # ################################# blog ################################################
 # blog:
 #   enable : true

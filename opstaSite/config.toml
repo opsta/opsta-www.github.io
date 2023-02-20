@@ -54,6 +54,17 @@ name = "About"
 URL = "about"
 weight = 2
 
+[[menu.main]]
+name = "Products"
+URL = "about"
+weight = 2
+
+[[menu.main]]
+name = "Opstella Self-Hosted"
+URL = "https://www.opstella.com"
+parent = "Products"
+
+
 # join us
 [[menu.careers]]
 name = "Join Us"
