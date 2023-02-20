@@ -60,8 +60,8 @@ URL = "about"
 weight = 2
 
 [[menu.main]]
-name = "Opstella On-premise"
-URL = "https://opstella.com"
+name = "Opstella Self-Hosted"
+URL = "https://www.opstella.com"
 parent = "Products"
 
 
