@@ -108,7 +108,7 @@ author = "Opsta"
 # contact info
 company_name = "Opsta (Thailand) Co.,Ltd."
 tax_id = "0105559166030"
-address = "677/12 Ladprao Road, Chom Phon, Chatuchak, Bangkok 10900"
+address = "220/8 Lat Phrao 1 Yak 8, Lat Phrao Road, Chom Phon, Chatuchak, Bangkok, 10900, Thailand"
 mobile = "+66611234089"
 email = "contact@opsta.co.th"
 fb_msg_url = "https://m.me/opstacloud"
@@ -183,7 +183,7 @@ home = "Home"
 # footer content
 footer_content = "We provides Enterprise DevSecOps Platform as a Service with our Enterprise CNCF Open Source Technical Consultant and Implementation Team to transform your organization to DevSecOps culture."
 # copyright
-copyright = "Copyright &copy; 2021 Opsta (Thailand) Co.,Ltd."
+copyright = "Copyright &copy; 2023 Opsta (Thailand) Co.,Ltd."
 
 ################################### Thai language #####################################
 # [Languages.th]
@@ -195,4 +195,4 @@ copyright = "Copyright &copy; 2021 Opsta (Thailand) Co.,Ltd."
 # # footer content
 # footer_content = "Opsta | DevSecOps as a Service"
 # # copyright
-# copyright = "Copyright &copy; 2021 Opsta (Thailand) Co.,Ltd."
+# copyright = "Copyright &copy; 2023 Opsta (Thailand) Co.,Ltd."
