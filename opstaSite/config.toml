@@ -68,7 +68,7 @@ parent = "Products"
 # join us
 [[menu.careers]]
 name = "Join Us"
-URL = "https://opsta.grovehr.com/careers"
+URL = "https://forms.gle/x4db1yyXm9YEAsu9A"
 weight = 4
 
 # footer menu
@@ -91,7 +91,7 @@ weight = 3
 # join us
 [[menu.footer]]
 name = "Join us"
-URL = "https://opsta.grovehr.com/careers"
+URL = "https://forms.gle/x4db1yyXm9YEAsu9A"
 weight = 4
 
 ########################### Default parameters ######################
