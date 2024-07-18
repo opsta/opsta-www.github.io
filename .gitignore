@@ -1,1 +1,15 @@
-opstaSite/public
+.DS_Store
+
+# Generated files by hugo
+/opstaSite/public/
+/opstaSite/resources/_gen/
+/opstaSite/assets/jsconfig.json
+/opstaSitehugo_stats.json
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Temporary lock file while building
+/opstaSite/.hugo_build.lock

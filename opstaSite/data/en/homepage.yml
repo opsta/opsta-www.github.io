@@ -5,7 +5,7 @@ slider:
         # slider item
         - subtitle: "With"
           title: "Opstella Platform"
-          content: "Will make cloud-native adoption easier, faster, safer, and smarter."
+          content: "is an Internal Developer Portal (IDP) designed to simplify the development process and operations. It accelerates and scales applications quickly, ensuring standard security compliance. With Opstella, you can significantly reduce costs by centralizing and optimizing DevSecOps and Platform Engineering practices."
           # bg_image_webp : "images/slider/banner-1.webp"
           bg_image: "images/slider/banner-5.png"
           animation: "fadeInUp" # animation select from : https://daneden.github.io/animate.css/
@@ -75,29 +75,33 @@ about:
     subtitle: "About Us"
     title: "We Are Technology Expert Consultant Team"
     content: "
-        We are the **Enterprise Open Source Technical Consultant & Implementation Team** that focuses on
-        **DevSecOps Transformation** with our experienced professional teams to build **High Availability**
-        and **Scalability** platform. We specialize in these technologies to transform your organization
-        into **DevSecOps Culture**.
+        We are the **Enterprise Open Source Technical Consultant & Implementation Team** that focuses on 
+        **DevSecOps Transformation** with our experienced professional teams to build a high availability 
+        and **scalable platform**. We specialize in these technologies to transform your organization 
+        into a DevSecOps Culture.
 
-        * **Cloud Technologies** with all Private, Public, and Hybrid Clouds such as AWS, GCP, Azure, VMware.
+
+        Our product, Opstella, is also an Internal Developer Portal (IDP) designed to simplify the development 
+        process and operations. It accelerates and scales applications quickly, ensuring standard security compliance. 
+        With Opstella, you can significantly reduce costs by centralizing and optimizing DevSecOps and Platform Engineering practices.
+
+        * **Cloud Technologies** with all Private, Public, and Hybrid Clouds such as AWS, GCP, Azure, VMware, HWC.
 
         * **Container Technologies** such as Docker, Kubernetes, Tanzu, OpenShift.
 
         * **Automation, Infrastructure as Code (IaC), and GitOps** such as Ansible, Terraform.
 
         * **Continuous Integration and Continuous Delivery/Deployment (CI/CD)** such as GitLab CI, Jenkins,
-        CircleCI, Azure DevOps, FluxCD, ArgoCD.
+        Azure DevOps, GitHub Actions, ArgoCD.
 
         * **Security Automation** with Enterprise and Open-Source Software from the first day of development
         such as Security Baseline Hardening, SAST, DAST, RASP, SCA, VA Scan, PAM, Container and Cloud Security.
 
         * **Centralized Monitoring** from infrastructure to application layer such as Prometheus, Thanos,
-        Grafana, Loki, ELK, EFK, Graylog.
+        LGTM Grafana Stack, ELK, EFK.
 
         * **Performance Load Testing** with real user simulation and analysis for system bottleneck such as
-        JMeter, Locust.
-
+        K6, JMeter, Locust.
 
         These will help our customers to increase business efficiency and reliability at more incredible
         speed and agility.

@@ -1,13 +1,13 @@
 ########################### Default configuration ######################
 baseURL = "https://www.opsta.co.th/"
-title = "Opsta | DevSecOps as a Service"
+title = "Opsta | DevSecOps Platform Engineering Specialist"
 theme = "opsta-www.github.io"
 # post pagination
 paginate = "6"
 # post excerpt
 summaryLength = "10"
 # disqus short name
-disqusShortname = "opsta" # get your shortname form here : https://disqus.com
+# disqusShortname = "opsta" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = [] # desable language from here
 
@@ -64,11 +64,10 @@ name = "Opstella Self-Hosted"
 URL = "https://www.opstella.com"
 parent = "Products"
 
-
 # join us
 [[menu.careers]]
 name = "Join Us"
-URL = "https://forms.gle/x4db1yyXm9YEAsu9A"
+URL = "/career/"
 weight = 4
 
 # footer menu
@@ -96,14 +95,14 @@ weight = 4
 
 ########################### Default parameters ######################
 [params]
-logo = "images/opsta-logo-slogan.svg"
+logo = "images/opsta-logo.svg"
 logo_footer = "images/opsta-logo-white.png"
 # top header
 top_header = true
 # Prefix title
-title_prefix = "Opsta | DevSecOps as a Service"
+title_prefix = "Opsta | DevSecOps Platform Engineering Specialist"
 # Meta data
-description = "Opsta provides Enterprise DevSecOps Platform as a Service with our Enterprise CNCF Open Source Technical Consultant and Implementation Team to transform your organization to DevSecOps culture."
+description = "We are the Enterprise Open Source Technical Consultant & Implementation Team that focuses on DevSecOps Transformation with our experienced professional teams to build a high availability and scalable platform. We specialize in these technologies to transform your organization into a DevSecOps Culture. Our product, Opstella, is also an Internal Developer Portal (IDP) designed to simplify the development process and operations. It accelerates and scales applications quickly, ensuring standard security compliance. With Opstella, you can significantly reduce costs by centralizing and optimizing DevSecOps and Platform Engineering practices."
 author = "Opsta"
 # contact info
 company_name = "Opsta (Thailand) Co.,Ltd."
@@ -111,9 +110,9 @@ tax_id = "0105559166030"
 address = "220/8 Soi Ladprao 1, Chomphon, Chatuchak, Bangkok, 10900, Thailand"
 mobile = "+66611234089"
 email = "contact@opsta.co.th"
-fb_msg_url = "https://m.me/opstacloud"
+fb_msg_url = "https://m.me/opstathailand"
 line_oa = "@opsta"
-line_url = "http://line.me/ti/p/%40opsta"
+line_url = "https://line.me/ti/p/%40opsta"
 gmap_url = "https://goo.gl/maps/qRwgWptkpsSRCJiH8"
 # contact form action
 contact_form_action = "https://formspree.io/mbjzndjn" # contact form works with https://formspree.io
@@ -154,20 +153,28 @@ map_marker = "images/marker.png"
 
 ########################### social icon ############################
 [[params.social]]
-icon = "fa-github"
-link = "https://github.com/opsta"
+icon = "fa-facebook"
+link = "https://fb.me/opstathailand"
 
 [[params.social]]
 icon = "fa-facebook"
-link = "https://facebook.com/opstacloud"
+link = "https://fb.me/opstacareer"
+
+[[params.social]]
+icon = "fa-linkedin"
+link = "https://linkedin.com/company/opsta"
 
 [[params.social]]
 icon = "fa-line"
-link = "http://line.me/ti/p/%40opsta"
+link = "https://line.me/ti/p/%40opsta"
 
 [[params.social]]
-icon = "fa-twitter"
-link = "https://twitter.com/opstacloud"
+icon = "fa-github"
+link = "https://github.com/opsta"
+
+# [[params.social]]
+# icon = "fa-twitter"
+# link = "https://twitter.com/opstacloud"
 
 # [[params.social]]
 # icon = "fa-instagram"
@@ -179,11 +186,12 @@ languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
+# copyright
+copyright = "Copyright &copy; 2024 Opsta (Thailand) Co.,Ltd."
+[Languages.en.params]
 home = "Home"
 # footer content
-footer_content = "We provides Enterprise DevSecOps Platform as a Service with our Enterprise CNCF Open Source Technical Consultant and Implementation Team to transform your organization to DevSecOps culture."
-# copyright
-copyright = "Copyright &copy; 2023 Opsta (Thailand) Co.,Ltd."
+footer_content = "We provides Enterprise DevSecOps Platform Engineering as a Service with our Enterprise CNCF Open Source Technical Consultant and Implementation Team to transform your organization to DevSecOps culture."
 
 ################################### Thai language #####################################
 # [Languages.th]
@@ -193,6 +201,6 @@ copyright = "Copyright &copy; 2023 Opsta (Thailand) Co.,Ltd."
 # weight = 2
 # home = "หน้าหลัก"
 # # footer content
-# footer_content = "Opsta | DevSecOps as a Service"
+# footer_content = "Opsta | DevSecOps Platform Engineering Specialist"
 # # copyright
-# copyright = "Copyright &copy; 2023 Opsta (Thailand) Co.,Ltd."
+# copyright = "Copyright &copy; 2024 Opsta (Thailand) Co.,Ltd."
