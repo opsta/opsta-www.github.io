@@ -71,7 +71,7 @@
         <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
           <p class="mb-0 text-white">{{ .Site.Params.copyright | markdownify }}</p>
         </div>
-        <div class="col-md-6 text-center text-md-right">
+        <div class="text-md-right d-flex flex-nowrap">
           <ul class="list-inline">
             {{ range .Site.Menus.footer }}
             <li class="list-inline-item mx-0"><a class="d-inline-block px-3 text-white" href="{{ .URL | relLangURL }}" class="text-white">{{ .Name }}</a></li>

@@ -3,7 +3,7 @@ baseURL = "https://www.opsta.co.th/"
 title = "Opsta | DevSecOps Platform Engineering Specialist"
 theme = "opsta-www.github.io"
 # post pagination
-paginate = "6"
+pagination.pagerSize = "6"
 # post excerpt
 summaryLength = "10"
 # disqus short name
@@ -71,27 +71,33 @@ URL = "/career/"
 weight = 4
 
 # footer menu
+
+[[menu.footer]]
+name = "Privacy Policy"
+URL = "policy"
+weight = 1
+
 [[menu.footer]]
 name = "Solutions & Services"
 URL = "service"
-weight = 1
+weight = 2
 hasChildren = true
 
 [[menu.footer]]
 name = "About"
 URL = "about"
-weight = 2
+weight = 3
 
 [[menu.footer]]
 name = "Contact"
 URL = "contact"
-weight = 3
+weight = 4
 
 # join us
 [[menu.footer]]
 name = "Join us"
 URL = "https://forms.gle/x4db1yyXm9YEAsu9A"
-weight = 4
+weight = 5
 
 ########################### Default parameters ######################
 [params]
