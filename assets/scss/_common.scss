@@ -25,7 +25,6 @@ body {
   width: 100vw;
 }
 
-ol,
 ul {
   list-style-type: none;
   margin: 0px;
@@ -511,8 +510,8 @@ textarea.form-control-sm {
     margin-bottom: 10px;
   }
 
-  ul,
-  ol {
+  ul
+   {
     padding-left: 0;
 
     li {
