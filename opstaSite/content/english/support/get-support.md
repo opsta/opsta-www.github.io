@@ -39,18 +39,6 @@ Access comprehensive documentation, guides, and best practices for all our produ
 
 &nbsp;
 
-### Community Support
-
-Join our community forums and connect with other users and OPSTA experts.
-
-**Community Features:**
-
--   Community Forums
--   Knowledge Base
--   User Discussions
-
-&nbsp;
-
 ### Support Channels
 
 #### Email Support
