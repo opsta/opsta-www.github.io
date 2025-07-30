@@ -64,6 +64,23 @@ name = "Opstella Self-Hosted"
 URL = "https://www.opstella.com"
 parent = "Products"
 
+[[menu.main]]
+name = "Support"
+URL = "#"
+weight = 3
+
+[[menu.main]]
+name = "Get Support"
+URL = "support/get-support"
+parent = "Support"
+weight = 1
+
+[[menu.main]]
+name = "Software Lifecycle Policy"
+URL = "support/software-lifecycle-policy"
+parent = "Support"
+weight = 2
+
 # join us
 [[menu.careers]]
 name = "Join Us"
