@@ -52,7 +52,7 @@ We offer two comprehensive support solutions to meet different business needs:
 | **Service Support for Incident**                                | 8x5                       | 24x7                     |
 | **Ticket, Email, telephone, and remote support**                | ✓                         | ✓                        |
 | **Unlimited tickets support per month**                         | ✓                         | ✓                        |
-| **Preventive Maintenance**                                      | -                         | 1 times per year         |
+| **Preventive Maintenance**                                      | -                         | 1 time per year         |
 | **Critical Patch Update** _(not include major version upgrade)_ | ✓                         | ✓                        |
 | **Meeting, Consult (can not be accumulated)**                   | -                         | 1 time per month         |
 | **Pro-active alert (Optional)**                                 | -                         | ✓                        |
