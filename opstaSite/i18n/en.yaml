@@ -66,3 +66,12 @@
 
 - id: status
   translation: status
+
+- id: support
+  translation: Support
+
+- id: get_support
+  translation: Get Support
+
+- id: software_lifecycle_policy
+  translation: Software Lifecycle Policy
