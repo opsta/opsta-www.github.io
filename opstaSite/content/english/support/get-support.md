@@ -1,7 +1,7 @@
 ---
 title: "Get Support"
 # meta description
-description: "Get technical support and assistance from Opsta's expert team for your DevSecOps and Platform Engineering needs."
+description: "Technical support and assistance for all OPSTA products and services"
 # page title background image
 bg_image_webp: "images/backgrounds/page-title.webp"
 bg_image: "images/backgrounds/page-title.jpg"
@@ -9,72 +9,64 @@ bg_image: "images/backgrounds/page-title.jpg"
 type: "pages"
 ---
 
-## Get Technical Support
+## Get Support
 
-At Opsta, we're committed to providing exceptional support for all your DevSecOps and Platform Engineering needs. Our experienced team of technical consultants is here to help you succeed.
+Technical support and assistance for all OPSTA products and services
+
+&nbsp;
+
+### Technical Support
+
+Get direct technical assistance from our expert team for troubleshooting and guidance.
+
+**Features:**
+
+-   24/7 Support Available
+-   Expert Technical Team
+-   Fast Response Time
+
+&nbsp;
+
+### Documentation
+
+Access comprehensive documentation, guides, and best practices for all our products.
+
+**Available Resources:**
+
+-   Complete User Guides
+-   API Documentation
+-   Best Practices
+
+&nbsp;
+
+### Community Support
+
+Join our community forums and connect with other users and OPSTA experts.
+
+**Community Features:**
+
+-   Community Forums
+-   Knowledge Base
+-   User Discussions
+
+&nbsp;
 
 ### Support Channels
 
-#### Technical Consultation
+#### Email Support
 
-Our expert consultants are available to help you with:
+**General Support:** [support@opsta.co.th](mailto:support@opsta.co.th)
 
--   DevSecOps transformation planning
--   Platform engineering architecture design
--   Cloud infrastructure optimization
--   Security automation implementation
--   Performance troubleshooting
+**Technical Issues:** [tech@opsta.co.th](mailto:tech@opsta.co.th)
 
-#### Contact Methods
+**Sales Inquiries:** [sales@opsta.co.th](mailto:sales@opsta.co.th)
 
-**Email Support**
+&nbsp;
 
--   General inquiries: [contact@opsta.co.th](mailto:contact@opsta.co.th)
--   Technical support: [support@opsta.co.th](mailto:support@opsta.co.th)
+#### Phone Support
 
-**Phone Support**
+**Thailand:** [+66 61 123 4089](tel:+66611234089)
 
--   Call us at: [+66611234089](tel:+66611234089)
--   Business hours: Monday - Friday, 9:00 AM - 6:00 PM (GMT+7)
+**Hours:** Monday - Friday, 9:00 AM - 6:00 PM (GMT+7)
 
-**Instant Messaging**
-
--   Facebook Messenger: [m.me/opstathailand](https://m.me/opstathailand)
--   LINE Official Account: [@opsta](https://line.me/ti/p/%40opsta)
-
-### Support Services
-
-#### Enterprise Support
-
-For enterprise customers, we offer:
-
--   Dedicated technical account manager
--   Priority support with guaranteed response times
--   On-site consultation and training
--   24/7 emergency support for critical issues
-
-#### Community Support
-
--   Documentation and knowledge base
--   Community forums and discussions
--   Regular webinars and training sessions
--   Open-source project contributions
-
-### Getting Started
-
-1. **Identify Your Needs**: Determine what type of support you require
-2. **Choose Your Channel**: Select the most appropriate contact method
-3. **Provide Details**: Include relevant information about your environment and issues
-4. **Follow Up**: Our team will respond according to your support level
-
-### Support Resources
-
--   [Documentation Portal](#)
--   [Knowledge Base](#)
--   [Video Tutorials](#)
--   [Best Practices Guides](#)
--   [Community Forum](#)
-
----
-
-_Need immediate assistance? Contact us through any of the channels above, and our team will get back to you as soon as possible._
+**Emergency:** 24/7 for premium support customers
