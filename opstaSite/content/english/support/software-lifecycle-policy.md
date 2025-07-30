@@ -53,8 +53,8 @@ We offer two comprehensive support solutions to meet different business needs:
 | **Ticket, Email, telephone, and remote support**                | ✓                         | ✓                        |
 | **Unlimited tickets support per month**                         | ✓                         | ✓                        |
 | **Preventive Maintenance**                                      | -                         | 1 time per year         |
-| **Critical Patch Update** _(not include major version upgrade)_ | ✓                         | ✓                        |
-| **Meeting, Consult (can not be accumulated)**                   | -                         | 1 time per month         |
+| **Critical Patch Update** _(not including major version upgrade)_ | ✓                         | ✓                        |
+| **Meeting, Consult (cannot be accumulated)**                   | -                         | 1 time per month         |
 | **Pro-active alert (Optional)**                                 | -                         | ✓                        |
 | **Monthly Report**                                              | -                         | ✓                        |
 | **Preventive Maintenance Reports**                              | -                         | ✓                        |
@@ -122,7 +122,7 @@ Premium support includes:
 For questions about our software lifecycle policy or to discuss support options:
 
 -   **Email**: [support@opsta.co.th](mailto:support@opsta.co.th)
--   **Phone**: [+66611234089](tel:+66611234089)
+-   **Phone**: [+66 61 123 4089](tel:+66611234089)
 -   **General Contact**: [contact@opsta.co.th](mailto:contact@opsta.co.th)
 
 ---
